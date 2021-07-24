@@ -1,4 +1,6 @@
 
+const LokiFSStructuredAdapter = require('lokijs/src/loki-fs-structured-adapter.js')
+
 const isProd = process.env.NODE_ENV === 'production'
 const filename = 'loki.db'
 
