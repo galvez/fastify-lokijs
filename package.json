@@ -1,0 +1,34 @@
+{
+  "scripts": {
+    "lint": "eslint . --ext js --fix"
+  },
+  "bugs": {
+    "url": "https://github.com/terixjs/fastify-lokijs/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Basic Fastify plugin for LokiJS",
+  "files": [
+    "defaults.js",
+    "index.js"
+  ],
+  "homepage": "https://github.com/terixjs/fastify-lokijs",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "fastify-lokijs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terixjs/fastify-lokijs.git"
+  },
+  "version": "0.0.1",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  },
+  "dependencies": {
+    "lokijs": "^1.5.12"
+  }
+}
